@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head profile="">
+        <link rel="icon" 
+              type="image/png" 
+              href="favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV in House</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<header class="site-header">
+  <div class="wrapper site-header__wrapper">
+    <h1>
+      TuDo Lista
+    </h1>
+    <p>Escreva as tarefas no input e Adicione com o botão. Adicionadas, elas podem ser riscadas quando feitas ou deletadas</p>
+  </div>
+</header>
+<body>
+  <div class="flex-container1" >
+    
+    <h2>Adicione as terefas no input e click em Adicionar</h2>
+  </div>
+    <div class="flex-container1" >
+        <input class="flex-item1" type="text" id="tarefa" required="required" placeholder="Escreva a tarefa a ser adicionada">
+        <button class="pushable">
+            <span class="front" id="add">
+              Adicionar
+            </span>
+          </button>
+        
+     </div>
+   <div class="flex-container2" > 
+    <ul id="lista" class= "flex-lista">
+        
+      </ul>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
